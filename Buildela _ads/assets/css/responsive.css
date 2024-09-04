@@ -1,0 +1,69 @@
+/* under lg */
+@media screen and  (max-width: 768px) {
+  #help-form .side-form{
+    width:100%;
+    overflow-y: auto;
+  }
+}
+/* under lg */
+@media screen and  (max-width: 992px) {
+  nav .nav-item{
+    border-bottom: 1px solid var(--bg-color);
+  }
+  #success-stories .custom-title{
+    margin-left: 0;
+  }
+  .fs-hero-title{
+    font-size: 2.5rem;
+  }
+  /*Pagination CSS*/
+  .pagintation-area{
+    padding-top: 6rem;
+  }
+  #help-center{
+    flex-direction: column;
+  }
+}
+
+/* upto lg */
+@media screen and (min-width: 992px){
+  .fs-lg-5{
+    font-size: 1.2rem !important;
+  }
+  .w-lg-50{
+    width: 50% !important;
+  }
+  .w-lg-75{
+    width: 75% !important;
+  }
+}
+
+/* under Xl */
+@media screen and (max-width: 1200px){
+  #hero{
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+/* Xl */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  nav .navbar-brand img{
+    width: 7rem;
+  }
+  nav ul.navbar-nav .nav-item .nav-link{
+    font-size: .8rem;
+    margin-bottom: -3px;
+  }
+  nav .btn-primary{
+    padding: .7rem 1rem;
+  }
+  nav .btn-primary h6{
+    font-size: .8rem;
+  }
+  nav .btn-primary i{
+    font-size: .7rem;
+    margin-bottom: -3px;
+  }
+}
+
+
